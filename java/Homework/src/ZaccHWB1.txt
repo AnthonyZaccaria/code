@@ -1,0 +1,15 @@
+/*Anthony Zaccaria
+ * Homework B-1 output
+ * CMSCI 256
+ * 1/26/23
+ * This is my own original work
+ */
+
+Enter a String: 
+himynameisanthony
+Original String: himynameisanthony
+New String with ofset of 4: lmqdreqimwerxlsrd
+Original String: himynameisanthony
+New String with ofset of 7: optguhtlpzhubovug
+Original String: himynameisanthony
+New String with ofset of 1: ijnzobnfjtbouipoz

@@ -1,0 +1,23 @@
+/* Anthony Zaccaria
+ * CMSCI 256
+ * Homework C-1 Lamp Example Output
+ * 2-1-23
+ * This is my own original work
+*/
+
+
+
+Before switching the lamps:
+OFF  ON  ON  ON  ON 
+ ON OFF  ON OFF  ON
+OFF OFF  ON  ON  ON
+OFF  ON  ON OFF OFF
+ ON OFF  ON OFF OFF
+OFF OFF OFF  ON  ON
+After switching the lamps:
+ ON OFF OFF OFF OFF
+OFF  ON OFF  ON OFF
+ ON  ON  ON  ON  ON
+ ON  ON  ON  ON  ON
+OFF OFF OFF OFF OFF
+OFF OFF OFF OFF OFF

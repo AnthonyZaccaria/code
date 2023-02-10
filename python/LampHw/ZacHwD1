@@ -1,0 +1,20 @@
+# Anthony Zaccaria
+# CMSCI 256
+# Homework D-1 output
+# 2-7-23
+# This is my own original work
+
+Original lamps:
+   On   Off   On   Off   On
+   On   Off   Off   On   Off
+   Off   On   Off   On   On
+   On   Off   On   On   On
+   On   On   Off   Off   Off
+   On   Off   On   On   On
+lamps after change:
+   Off   On   Off   On   Off
+   Off   On   On   Off   On
+   Off   Off   Off   Off   Off
+   Off   Off   Off   Off   Off
+   On   On   On   On   On
+   On   On   On   On   On

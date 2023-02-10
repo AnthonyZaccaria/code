@@ -1,0 +1,17 @@
+/* Anthony Zaccaria
+ * CMSCI 256
+ * Lab 2 Output
+ * 2-3-23
+ * This is my own original work
+ */
+
+Card 1: 4H
+Card 2: 8H
+4H and 8H have the same suit: true
+4H and 8H have the same value: false
+Card 2 now: 4D
+4H and 4D have the same suit: false
+4H and 4D have the same value: true
+Card 3: 4H
+4H and 4D are the same: false
+4H and 4H are the same: true
