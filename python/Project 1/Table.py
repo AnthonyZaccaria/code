@@ -40,16 +40,6 @@ class Table:
             print(self.__list[i][2]," ",end=x)
 
 
-    def printTable1(self):
-        count=0
-        for i in range(self.__horiz):
-            for j in range(self.__vert):
-                count+=1
-                if count%self.__horiz==0:
-                    x='\n'
-                else:
-                    x=""
-                print(self.__list[i][j]," ",end=x)
 
     def printCoordinates(self):
         count=0

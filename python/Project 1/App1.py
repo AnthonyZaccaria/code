@@ -1,6 +1,7 @@
 from Line import Line
 from Table import Table
 
+# generates all possible lines given a certain size game board
 def genPossLines(bound):
     possLines=Table(4,4)
     numPossLines=0
@@ -19,9 +20,9 @@ def genPossLines(bound):
     return possLines,numPossLines
 
 
-
-def createTable(x,y):
-    t= Table(x,y)
+# Creates the game board given a size of one dimension
+def createTable(x):
+    t= Table(x,x)
     t.constructTable()
     print("Table:")
     t.printTable()
@@ -30,7 +31,7 @@ def createTable(x,y):
     return t
 
 
-
+# gets and checks coordinate input for user's turns
 def newLine():
     valid = True
     try:
@@ -59,10 +60,11 @@ def newLine():
         line=Line([x,y],[a,b])
     return line
 
+# changes the symbol for certain spots in the game board
 def changeSymbol(Tab,i, x):
     Tab.getList()[i][2]=x
 
-
+# updates the table to reflect user's input
 def updateTable(line,table): 
     for i in range(table.getSize()):
         if line.getStart()[0]==table.getRow(i)[0] and line.getStart()[1]==table.getRow(i)[1]:
@@ -71,7 +73,7 @@ def updateTable(line,table):
             changeSymbol(table,i,'x')
 
 
-    
+# checks if certain lines have been used    
 def used(line,lines): ##returning None
     flag=False
     for i in range (len(lines)):
@@ -81,6 +83,7 @@ def used(line,lines): ##returning None
             
             return False
 
+# play a single turn of the game
 def turn(table,t,possLines,lines,p1,p2):
     squares=[]
     if t%2==0:
@@ -117,19 +120,8 @@ def turn(table,t,possLines,lines,p1,p2):
     table.printTable()
     return lines,p1,p2
 
-def endGame(table): ##Returning None
-    count=0
-    end=False
-    size=table.getSize()-1
-    for i in range (size):
-        if table.getRow(i)=="X":
-            count+=1
-
-    if count==size:
-        end=True
-
-    return end
-
+# gets the specific squares in a 4 by 4 game board. 
+# Only works for 4 by 4
 def countSquares4by4(lines,entLines):
     square=0
     square1=[[lines.getList()[0],lines.getList()[2]],[lines.getList()[1],lines.getList()[10]],\
@@ -208,6 +200,7 @@ def countSquares4by4(lines,entLines):
     
     return square
 
+# driver function
 def main():
     player1= 0
     player2= 0
@@ -219,7 +212,7 @@ def main():
     #print("possLines:\n",possLines)
     #print("numPossLines:\n",numPossLines)
     
-    table=createTable(boardSize,boardSize)
+    table=createTable(boardSize)
     totSquares=(boardSize-1)*(boardSize-1)
     #print("size:",table.getSize())
     t =0
