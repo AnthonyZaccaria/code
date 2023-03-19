@@ -121,7 +121,7 @@ def turn(table,t,possLines,lines,p1,p2):
     return lines,p1,p2
 
 # gets the specific squares in a 4 by 4 game board. 
-# Only works for 4 by 4
+# Only works for 4 by 4 game board
 def countSquares4by4(lines,entLines):
     square=0
     square1=[[lines.getList()[0],lines.getList()[2]],[lines.getList()[1],lines.getList()[10]],\
@@ -236,15 +236,4 @@ def main():
 
 main()
 
-## first or second variable has to be the same in a line
-## line looks like [0,1],[1,1]]
-## validLine() not working: Good
-## Boolean methods, except used not working
-## end game() in main() while loop not working
 
-## reevaluate square()
-## updateTable() if first coordinate of start is equal to first coordinate of end, vertical line
-## protect input
-## check if square
-## update aestetics
-## t as paremeter in turn method
