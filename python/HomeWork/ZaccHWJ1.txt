@@ -1,0 +1,12 @@
+"""
+Anthony Zaccaria
+3/10/2023
+HW J-1 Output
+This is my own original work
+"""
+
+
+(a+b)*((c+d)*14) is balenced: True
+<<a> <b> <apple >><> is balenced: True
+(1+1+(2*3) is balenced: False
+<----------<===========<----------------->>{ is balenced: False  

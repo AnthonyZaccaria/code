@@ -1,3 +1,9 @@
+/*Anthony Zaccaria
+ * Homework E-1 School Class
+ * CMSCI 256
+ * 2/16/23
+ * This is my own original work
+ */
 public class School {
     private String name;
     private String principal;

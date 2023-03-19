@@ -1,0 +1,27 @@
+"""
+Anthony Zaccaria
+2/21/2023
+HW G-1 Output
+This is my own original work
+"""
+
+Counter: count = 10, step =  2,
+origStep = 1, origCounter = 5 is equal to
+ Counter: count = 10, step =  2,
+origStep = 1, origCounter = 5 : True
+Counter: count = 10, step =  2,
+origStep = 1, origCounter = 5
+Counter: count = 12, step =  2,
+origStep = 1, origCounter = 5
+Counter: count = 10, step =  2,
+origStep = 1, origCounter = 5
+Counter: count = 5, step =  1,
+origStep = 1, origCounter = 5
+Counter: count = 15, step =  1,
+origStep = 1, origCounter = 5
+Counter: count = 3, step =  1,
+origStep = 1, origCounter = 5
+Counter: count = 3, step =  1,
+origStep = 1, origCounter = 5 is equal to
+ Counter: count = 10, step =  2,
+origStep = 1, origCounter = 5 : False

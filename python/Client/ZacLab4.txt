@@ -1,0 +1,17 @@
+Anthony Zaccaria
+2/17/2023
+Lab 4 output
+This is my own original work
+
+Contract number: 12
+ Contract detail: I agree to sleep from the hours 10 pm to 6 am.  
+Contract number: 30
+ Contract detail: I agree to mow the lawn for $1 a day without complaining.
+name: Anthony
+Contract:
+  Contract number: 30
+ Contract detail: I agree to mow the lawn for $1 a day without complaining.
+name: Bob
+Contract:
+  Contract number: 12
+ Contract detail: I agree to sleep from the hours 10 pm to 6 am.
