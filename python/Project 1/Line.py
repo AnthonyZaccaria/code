@@ -1,3 +1,7 @@
+# Anthony Zaccaria and Lexi Eastman
+# CMSCI 256 Project 1 Line  
+# 3/19/23
+# This is our own original work
 class Line: 
 
     __start=None

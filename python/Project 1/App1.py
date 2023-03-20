@@ -1,3 +1,8 @@
+# Anthony Zaccaria and Lexi Eastman
+# CMSCI 256 Project 1 App 
+# 3/19/23
+# This is our own original work
+
 from Line import Line
 from Table import Table
 
@@ -84,8 +89,7 @@ def used(line,lines): ##returning None
             return False
 
 # play a single turn of the game
-def turn(table,t,possLines,lines,p1,p2):
-    squares=[]
+def turn(table,t,possLines,lines,p1,p2,squares):
     if t%2==0:
         print("Player 1 turn:")
     else:
@@ -105,24 +109,25 @@ def turn(table,t,possLines,lines,p1,p2):
             updateTable(x,table) ##Good
             print("lines: ",lines)
         #player+=1
-        sq=countSquares4by4(possLines,lines)
-        squares.append(sq)
-        if sq!=0: ##Returning None
+        sq=countSquares4by4(possLines,lines,squares)
+        if sq not in squares and sq!=0:
             if t%2==0:
                 p1+=1
             else:
                 p2+=1
+            squares.append(sq)
+
         
     else:
          print("That is not a valid line, lose your turn! OOR")
         
     print ("square")
     table.printTable()
-    return lines,p1,p2
+    return lines,p1,p2,squares
 
 # gets the specific squares in a 4 by 4 game board. 
 # Only works for 4 by 4 game board
-def countSquares4by4(lines,entLines):
+def countSquares4by4(lines,entLines,squares):
     square=0
     square1=[[lines.getList()[0],lines.getList()[2]],[lines.getList()[1],lines.getList()[10]],\
               [lines.getList()[11],lines.getList()[14]],[lines.getList()[4],lines.getList()[13]]]
@@ -143,60 +148,69 @@ def countSquares4by4(lines,entLines):
     square9=[[lines.getList()[34],lines.getList()[43]],[lines.getList()[33],lines.getList()[36]],\
               [lines.getList()[45],lines.getList()[47]],[lines.getList()[37],lines.getList()[41]]]
     #squares=[1,2,3,4,5,6,7,8,9]
-    if (square1[0][0] or square1[0][1]) in entLines and \
-    (square1[1][0] or square1[1][1]) in entLines and \
-    (square1[2][0] or square1[2][1]) in entLines and \
-    (square1[3][0] or square1[3][1]) in entLines:
+    if (square1[0][0] in entLines or square1[0][1] in entLines) and \
+    (square1[1][0] in entLines  or square1[1][1] in entLines ) and \
+    (square1[2][0] in entLines  or square1[2][1] in entLines ) and \
+    (square1[3][0] in entLines or square1[3][1]in entLines):
          #squares.remove(1)
-         square=1
-    if (square2[0][0] or square2[0][1]) in entLines and \
-    (square1[1][0] or square2[1][1]) in entLines and \
-    (square1[2][0] or square2[2][1]) in entLines and \
-    (square1[3][0] or square2[3][1]) in entLines:
+         if 1 not in squares:
+            square=1
+    if (square2[0][0] in entLines or square2[0][1] in entLines) and \
+    (square2[1][0] in entLines  or square2[1][1] in entLines ) and \
+    (square2[2][0] in entLines  or square2[2][1] in entLines ) and \
+    (square2[3][0] in entLines or square2[3][1]in entLines):
          #squares.remove(2)
-         square=2
-    if (square3[0][0] or square3[0][1]) in entLines and \
-    (square3[1][0] or square3[1][1]) in entLines and \
-    (square3[2][0] or square3[2][1]) in entLines and \
-    (square3[3][0] or square3[3][1]) in entLines:
+         if 2 not in squares:
+            square=2
+    if (square3[0][0] in entLines or square3[0][1] in entLines) and \
+    (square3[1][0] in entLines  or square3[1][1] in entLines ) and \
+    (square3[2][0] in entLines  or square3[2][1] in entLines ) and \
+    (square3[3][0] in entLines or square3[3][1]in entLines):
          #squares.remove(3)
-         square=3
-    if (square4[0][0] or square4[0][1]) in entLines and \
-    (square4[1][0] or square4[1][1]) in entLines and \
-    (square4[2][0] or square4[2][1]) in entLines and \
-    (square4[3][0] or square4[3][1]) in entLines:
+         if 3 not in squares:
+            square=3
+    if (square4[0][0] in entLines or square4[0][1] in entLines) and \
+    (square4[1][0] in entLines  or square4[1][1] in entLines ) and \
+    (square4[2][0] in entLines  or square4[2][1] in entLines ) and \
+    (square4[3][0] in entLines or square4[3][1]in entLines):
          #squares.remove(4)
-         square=4
-    if (square5[0][0] or square5[0][1]) in entLines and \
-    (square5[1][0] or square5[1][1]) in entLines and \
-    (square5[2][0] or square5[2][1]) in entLines and \
-    (square5[3][0] or square5[3][1]) in entLines:
+         if 4 not in squares:
+            square=4
+    if (square5[0][0] in entLines or square5[0][1] in entLines) and \
+    (square5[1][0] in entLines  or square5[1][1] in entLines ) and \
+    (square5[2][0] in entLines  or square5[2][1] in entLines ) and \
+    (square5[3][0] in entLines or square5[3][1]in entLines):
          #squares.remove(5)
-         square=5
-    if (square6[0][0] or square6[0][1]) in entLines and \
-    (square6[1][0] or square6[1][1]) in entLines and \
-    (square6[2][0] or square6[2][1]) in entLines and \
-    (square6[3][0] or square6[3][1]) in entLines:
+         if 5 not in squares:
+            square=5
+    if (square6[0][0] in entLines or square6[0][1] in entLines) and \
+    (square6[1][0] in entLines  or square6[1][1] in entLines ) and \
+    (square6[2][0] in entLines  or square6[2][1] in entLines ) and \
+    (square6[3][0] in entLines or square6[3][1]in entLines):
          #squares.remove(6)
-         square=6
-    if (square7[0][0] or square7[0][1]) in entLines and \
-    (square7[1][0] or square7[1][1]) in entLines and \
-    (square7[2][0] or square7[2][1]) in entLines and \
-    (square7[3][0] or square7[3][1]) in entLines:
+         if 6 not in squares:
+            square=6
+    if (square7[0][0] in entLines or square7[0][1] in entLines) and \
+    (square7[1][0] in entLines  or square7[1][1] in entLines ) and \
+    (square7[2][0] in entLines  or square7[2][1] in entLines ) and \
+    (square7[3][0] in entLines or square7[3][1]in entLines):
          #squares.remove(7)
-         square=7
-    if (square8[0][0] or square8[0][1]) in entLines and \
-    (square8[1][0] or square8[1][1]) in entLines and \
-    (square8[2][0] or square8[2][1]) in entLines and \
-    (square8[3][0] or square8[3][1]) in entLines:
+         if 7 not in squares:
+            square=7
+    if (square8[0][0] in entLines or square8[0][1] in entLines) and \
+    (square8[1][0] in entLines  or square8[1][1] in entLines ) and \
+    (square8[2][0] in entLines  or square8[2][1] in entLines ) and \
+    (square8[3][0] in entLines or square8[3][1]in entLines):
          #squares.remove(8)
-         square=8
-    if (square2[0][0] or square9[0][1]) in entLines and \
-    (square9[1][0] or square9[1][1]) in entLines and \
-    (square9[2][0] or square9[2][1]) in entLines and \
-    (square9[3][0] or square9[3][1]) in entLines:
+         if 8 not in squares:
+            square=8
+    if (square9[0][0] in entLines or square9[0][1] in entLines) and \
+    (square9[1][0] in entLines  or square9[1][1] in entLines ) and \
+    (square9[2][0] in entLines  or square9[2][1] in entLines ) and \
+    (square9[3][0] in entLines or square9[3][1]in entLines):
          #squares.remove(9)
-         square=9
+         if 9 not in squares:
+            square=9
     
     return square
 
@@ -207,6 +221,7 @@ def main():
     lines=[]
     print("hello")
     boardSize=4
+    squares=[]
 
     possLines,numPossLines=genPossLines(boardSize)
     #print("possLines:\n",possLines)
@@ -220,13 +235,23 @@ def main():
     
     while (end==False):
         print("Turn:",t//2+1)
-        lines,player1,player2=turn(table,t,possLines,lines,player1,player2)
+        lines,player1,player2,squares=turn(table,t,possLines,lines,player1,player2,squares)
+        print('squares:',squares)
         #print("type:",type(lines[0]))
         print("Score: ")
         print("Player 1: "+str(player1))
         print ("Player 2: "+str(player2))
         t+=1
+        if player1>totSquares//2:
+            print("Player 1 wins!!!")
+        if player2>totSquares//2:
+            print("Player 2 wins!!!")
         if player1+player2==totSquares:
+            winner=max(player1,player2)
+            if winner==player1:
+                print("Player 1 wins!!!")
+            else:
+                print("Player 2 wins!!!")
             end=True
    
 

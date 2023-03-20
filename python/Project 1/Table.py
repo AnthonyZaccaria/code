@@ -1,3 +1,7 @@
+# Anthony Zaccaria and Lexi Eastman
+# CMSCI 256 Project 1 Table
+# 3/19/23
+# This is our own original work
 class Table: 
 
     __size=0

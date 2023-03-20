@@ -1,0 +1,929 @@
+# Anthony Zaccaria and Lexi Eastman
+# CMSCI 256 Project 1 Output 
+# 3/19/23
+# This is our own original work
+
+
+Score:
+Player 1: 2
+Player 2: 2
+Turn: 13
+Player 2 turn:
+Enter verticle coordinate for line start, enter q to quit:        
+1
+Enter horizontal coordinate for line start point: 
+1
+Enter verticle coordinate for line end point: 
+2
+Enter horizontal coordinate for line end point: 
+2
+That is not a valid line, lose your turn!
+square
+x  x  x  x
+x  x  x  x
+x  x  x  x
+*  *  x  x
+squares: [1, 2, 3, 4]
+Score:
+Player 1: 2
+Player 2: 2
+Turn: 14
+Player 1 turn:
+Enter verticle coordinate for line start, enter q to quit:        
+1
+Enter horizontal coordinate for line start point: 
+2
+Enter verticle coordinate for line end point: 
+2
+Enter horizontal coordinate for line end point: 
+2
+lines:  [[3, 3, 2, 3], [3, 3, 3, 2], [0, 0, 0, 1], [3, 2, 2, 2], [2, 2, 2, 3], [1, 0, 1, 1], [1, 0, 0, 0], [1, 1, 0, 1], [1, 1, 1, 2], [0, 1, 0, 2], [0, 2, 1, 2], [0, 3, 0, 2], [0, 3, 1, 3], [0, 2, 1, 2], [1, 2, 1, 3], [1, 0, 2, 0], [2, 0, 2, 1], [2, 1, 1, 1], [1, 2, 2, 2]]
+square
+x  x  x  x
+x  x  x  x
+x  x  x  x
+*  *  x  x
+squares: [1, 2, 3, 4]
+Score:
+Player 1: 2
+Player 2: 2
+Turn: 14
+Player 2 turn:
+Enter verticle coordinate for line start, enter q to quit:        
+2
+Enter horizontal coordinate for line start point: 
+1
+Enter verticle coordinate for line end point: 
+2
+Enter horizontal coordinate for line end point: 
+2
+lines:  [[3, 3, 2, 3], [3, 3, 3, 2], [0, 0, 0, 1], [3, 2, 2, 2], [2, 2, 2, 3], [1, 0, 1, 1], [1, 0, 0, 0], [1, 1, 0, 1], [1, 1, 1, 2], [0, 1, 0, 2], [0, 2, 1, 2], [0, 3, 0, 2], [0, 3, 1, 3], [0, 2, 1, 2], [1, 2, 1, 3], [1, 0, 2, 0], [2, 0, 2, 1], [2, 1, 1, 1], [1, 2, 2, 2], [2, 1, 2, 2]]
+square
+x  x  x  x
+x  x  x  x
+x  x  x  x
+*  *  x  x
+squares: [1, 2, 3, 4, 5]
+Score:
+Player 1: 2
+Player 2: 3
+Turn: 15
+Player 1 turn:
+Enter verticle coordinate for line start, enter q to quit:        
+1
+Enter horizontal coordinate for line start point: 
+2
+Enter verticle coordinate for line end point: 
+1
+Enter horizontal coordinate for line end point: 
+3
+lines:  [[3, 3, 2, 3], [3, 3, 3, 2], [0, 0, 0, 1], [3, 2, 2, 2], [2, 2, 2, 3], [1, 0, 1, 1], [1, 0, 0, 0], [1, 1, 0, 1], [1, 1, 1, 2], [0, 1, 0, 2], [0, 2, 1, 2], [0, 3, 0, 2], [0, 3, 1, 3], [0, 2, 1, 2], [1, 2, 1, 3], [1, 0, 2, 0], [2, 0, 2, 1], [2, 1, 1, 1], [1, 2, 2, 2], [2, 1, 2, 2], [1, 2, 1, 3]]
+square
+x  x  x  x
+x  x  x  x
+x  x  x  x
+*  *  x  x
+squares: [1, 2, 3, 4, 5]
+Score:
+Player 1: 2
+Player 2: 3
+Turn: 15
+Player 2 turn:
+Enter verticle coordinate for line start, enter q to quit:        
+1
+Enter horizontal coordinate for line start point: 
+3
+Enter verticle coordinate for line end point: 
+2
+Enter horizontal coordinate for line end point: 
+3
+lines:  [[3, 3, 2, 3], [3, 3, 3, 2], [0, 0, 0, 1], [3, 2, 2, 2], [2, 2, 2, 3], [1, 0, 1, 1], [1, 0, 0, 0], [1, 1, 0, 1], [1, 1, 1, 2], [0, 1, 0, 2], [0, 2, 1, 2], [0, 3, 0, 2], [0, 3, 1, 3], [0, 2, 1, 2], [1, 2, 1, 3], [1, 0, 2, 0], [2, 0, 2, 1], [2, 1, 1, 1], [1, 2, 2, 2], [2, 1, 2, 2], [1, 2, 1, 3], [1, 3, 2, 3]]
+square
+x  x  x  x
+x  x  x  x
+x  x  x  x
+*  *  x  x
+squares: [1, 2, 3, 4, 5, 6]
+Score:
+Player 1: 2
+Player 2: 4
+Turn: 16
+Player 1 turn:
+Enter verticle coordinate for line start, enter q to quit:        
+1
+Enter horizontal coordinate for line start point: 
+2
+Enter verticle coordinate for line end point: 
+2
+Enter horizontal coordinate for line end point: 
+2
+lines:  [[3, 3, 2, 3], [3, 3, 3, 2], [0, 0, 0, 1], [3, 2, 2, 2], [2, 2, 2, 3], [1, 0, 1, 1], [1, 0, 0, 0], [1, 1, 0, 1], [1, 1, 1, 2], [0, 1, 0, 2], [0, 2, 1, 2], [0, 3, 0, 2], [0, 3, 1, 3], [0, 2, 1, 2], [1, 2, 1, 3], [1, 0, 2, 0], [2, 0, 2, 1], [2, 1, 1, 1], [1, 2, 2, 2], [2, 1, 2, 2], [1, 2, 1, 3], [1, 3, 2, 3], [1, 2, 2, 2]]
+square
+x  x  x  x
+x  x  x  x
+x  x  x  x
+*  *  x  x
+squares: [1, 2, 3, 4, 5, 6]
+Score:
+Player 1: 2
+Player 2: 4
+Turn: 16
+Player 2 turn:
+Enter verticle coordinate for line start, enter q to quit:        
+2
+Enter horizontal coordinate for line start point: 
+1
+Enter verticle coordinate for line end point: 
+3
+Enter horizontal coordinate for line end point: 
+1
+lines:  [[3, 3, 2, 3], [3, 3, 3, 2], [0, 0, 0, 1], [3, 2, 2, 2], [2, 2, 2, 3], [1, 0, 1, 1], [1, 0, 0, 0], [1, 1, 0, 1], [1, 1, 1, 2], [0, 1, 0, 2], [0, 2, 1, 2], [0, 3, 0, 2], [0, 3, 1, 3], [0, 2, 1, 2], [1, 2, 1, 3], [1, 0, 2, 0], [2, 0, 2, 1], [2, 1, 1, 1], [1, 2, 2, 2], [2, 1, 2, 2], [1, 2, 1, 3], [1, 3, 2, 3], [1, 2, 2, 2], [2, 1, 3, 1]]
+square
+x  x  x  x
+x  x  x  x
+x  x  x  x
+*  x  x  x
+squares: [1, 2, 3, 4, 5, 6]
+Score:
+Player 1: 2
+Player 2: 4
+Turn: 17
+Player 1 turn:
+Enter verticle coordinate for line start, enter q to quit:        
+2
+Enter horizontal coordinate for line start point: 
+2
+Enter verticle coordinate for line end point:
+3
+Enter horizontal coordinate for line end point: 
+2
+lines:  [[3, 3, 2, 3], [3, 3, 3, 2], [0, 0, 0, 1], [3, 2, 2, 2], [2, 2, 2, 3], [1, 0, 1, 1], [1, 0, 0, 0], [1, 1, 0, 1], [1, 1, 1, 2], [0, 1, 0, 2], [0, 2, 1, 2], [0, 3, 0, 2], [0, 3, 1, 3], [0, 2, 1, 2], [1, 2, 1, 3], [1, 0, 2, 0], [2, 0, 2, 1], [2, 1, 1, 1], [1, 2, 2, 2], [2, 1, 2, 2], [1, 2, 1, 3], [1, 3, 2, 3], [1, 2, 2, 2], [2, 1, 3, 1], [2, 2, 3, 2]]
+square
+x  x  x  x
+x  x  x  x
+x  x  x  x
+*  x  x  x
+squares: [1, 2, 3, 4, 5, 6]
+Score:
+Player 1: 2
+Player 2: 4
+Turn: 17
+Player 2 turn:
+Enter verticle coordinate for line start, enter q to quit:        
+3
+Enter horizontal coordinate for line start point: 
+1
+Enter verticle coordinate for line end point: 
+3
+Enter horizontal coordinate for line end point: 
+2
+lines:  [[3, 3, 2, 3], [3, 3, 3, 2], [0, 0, 0, 1], [3, 2, 2, 2], [2, 2, 2, 3], [1, 0, 1, 1], [1, 0, 0, 0], [1, 1, 0, 1], [1, 1, 1, 2], [0, 1, 0, 2], [0, 2, 1, 2], [0, 3, 0, 2], [0, 3, 1, 3], [0, 2, 1, 2], [1, 2, 1, 3], [1, 0, 2, 0], [2, 0, 2, 1], [2, 1, 1, 1], [1, 2, 2, 2], [2, 1, 2, 2], [1, 2, 1, 3], [1, 3, 2, 3], [1, 2, 2, 2], [2, 1, 3, 1], [2, 2, 3, 2], [3, 1, 3, 2]]
+square
+x  x  x  x
+x  x  x  x
+x  x  x  x
+*  x  x  x
+squares: [1, 2, 3, 4, 5, 6, 8]
+Score:
+Player 1: 2
+Player 2: 5
+Turn: 18
+Player 1 turn:
+Enter verticle coordinate for line start, enter q to quit:        
+3
+Enter horizontal coordinate for line start point: 
+0
+Enter verticle coordinate for line end point: 
+3
+Enter horizontal coordinate for line end point: 
+1
+lines:  [[3, 3, 2, 3], [3, 3, 3, 2], [0, 0, 0, 1], [3, 2, 2, 2], [2, 2, 2, 3], [1, 0, 1, 1], [1, 0, 0, 0], [1, 1, 0, 1], [1, 1, 1, 2], [0, 1, 0, 2], [0, 2, 1, 2], [0, 3, 0, 2], [0, 3, 1, 3], [0, 2, 1, 2], [1, 2, 1, 3], [1, 0, 2, 0], [2, 0, 2, 1], [2, 1, 1, 1], [1, 2, 2, 2], [2, 1, 2, 2], [1, 2, 1, 3], [1, 3, 2, 3], [1, 2, 2, 2], [2, 1, 3, 1], [2, 2, 3, 2], [3, 1, 3, 2], [3, 0, 3, 1]]
+square
+x  x  x  x
+x  x  x  x
+x  x  x  x
+x  x  x  x
+squares: [1, 2, 3, 4, 5, 6, 8]
+Score:
+Player 1: 2
+Player 2: 5
+Turn: 18
+Player 2 turn:
+Enter verticle coordinate for line start, enter q to quit:        
+0
+Enter horizontal coordinate for line start point: 
+2
+Enter verticle coordinate for line end point: 
+0
+Enter horizontal coordinate for line end point: 
+3
+lines:  [[3, 3, 2, 3], [3, 3, 3, 2], [0, 0, 0, 1], [3, 2, 2, 2], [2, 2, 2, 3], [1, 0, 1, 1], [1, 0, 0, 0], [1, 1, 0, 1], [1, 1, 1, 2], [0, 1, 0, 2], [0, 2, 1, 2], [0, 3, 0, 2], [0, 3, 1, 3], [0, 2, 1, 2], [1, 2, 1, 3], [1, 0, 2, 0], [2, 0, 2, 1], [2, 1, 1, 1], [1, 2, 2, 2], [2, 1, 2, 2], [1, 2, 1, 3], [1, 3, 2, 3], [1, 2, 2, 2], [2, 1, 3, 1], [2, 2, 3, 2], [3, 1, 3, 2], [3, 0, 3, 1], [0, 2, 0, 3]]
+square
+x  x  x  x
+x  x  x  x
+x  x  x  x
+x  x  x  x
+squares: [1, 2, 3, 4, 5, 6, 8]
+Score:
+Player 1: 2
+Player 2: 5
+Turn: 19
+Player 1 turn:
+Enter verticle coordinate for line start, enter q to quit:        
+1
+Enter horizontal coordinate for line start point: 
+1
+Enter verticle coordinate for line end point: 
+1
+Enter horizontal coordinate for line end point: 
+1
+That is not a valid line, lose your turn!
+square
+x  x  x  x
+x  x  x  x
+x  x  x  x
+x  x  x  x
+squares: [1, 2, 3, 4, 5, 6, 8]
+Score:
+Player 1: 2
+Player 2: 5
+Turn: 19
+Player 2 turn:
+Enter verticle coordinate for line start, enter q to quit:        
+2
+Enter horizontal coordinate for line start point: 
+0
+Enter verticle coordinate for line end point: 
+3
+Enter horizontal coordinate for line end point: 
+0
+lines:  [[3, 3, 2, 3], [3, 3, 3, 2], [0, 0, 0, 1], [3, 2, 2, 2], [2, 2, 2, 3], [1, 0, 1, 1], [1, 0, 0, 0], [1, 1, 0, 1], [1, 1, 1, 2], [0, 1, 0, 2], [0, 2, 1, 2], [0, 3, 0, 2], [0, 3, 1, 3], [0, 2, 1, 2], [1, 2, 1, 3], [1, 0, 2, 0], [2, 0, 2, 1], [2, 1, 1, 1], [1, 2, 2, 2], [2, 1, 2, 2], [1, 2, 1, 3], [1, 3, 2, 3], [1, 2, 2, 2], [2, 1, 3, 1], [2, 2, 3, 2], [3, 1, 3, 2], [3, 0, 3, 1], [0, 2, 0, 3], [2, 0, 3, 0]]
+square
+x  x  x  x
+x  x  x  x
+x  x  x  x
+x  x  x  x
+squares: [1, 2, 3, 4, 5, 6, 8, 7]
+Score:
+Player 1: 2
+Player 2: 6
+Turn: 20
+Player 1 turn:
+Enter verticle coordinate for line start, enter q to quit:        
+3
+Enter horizontal coordinate for line start point: 
+3
+Enter verticle coordinate for line end point: 
+3
+Enter horizontal coordinate for line end point: 
+2
+lines:  [[3, 3, 2, 3], [3, 3, 3, 2], [0, 0, 0, 1], [3, 2, 2, 2], [2, 2, 2, 3], [1, 0, 1, 1], [1, 0, 0, 0], [1, 1, 0, 1], [1, 1, 1, 2], [0, 1, 0, 2], [0, 2, 1, 2], [0, 3, 0, 2], [0, 3, 1, 3], [0, 2, 1, 2], [1, 2, 1, 3], [1, 0, 2, 0], [2, 0, 2, 1], [2, 1, 1, 1], [1, 2, 2, 2], [2, 1, 2, 2], [1, 2, 1, 3], [1, 3, 2, 3], [1, 2, 2, 2], [2, 1, 3, 1], [2, 2, 3, 2], [3, 1, 3, 2], [3, 0, 3, 1], [0, 2, 0, 3], [2, 0, 3, 0], [3, 3, 3, 2]]
+square
+x  x  x  x
+x  x  x  x
+x  x  x  x
+x  x  x  x
+squares: [1, 2, 3, 4, 5, 6, 8, 7]
+Score:
+Player 1: 2
+Player 2: 6
+Turn: 20
+Player 2 turn:
+Enter verticle coordinate for line start, enter q to quit:        
+3
+Enter horizontal coordinate for line start point: 
+3
+Enter verticle coordinate for line end point: 
+2
+Enter horizontal coordinate for line end point: 
+3
+Enter a valid unused line 
+Enter verticle coordinate for line start, enter q to quit:        
+2
+Enter horizontal coordinate for line start point:
+3
+Enter verticle coordinate for line end point: 
+3
+Enter horizontal coordinate for line end point: 
+3
+[2, 3] [3, 3]
+None
+lines:  [[3, 3, 2, 3], [3, 3, 3, 2], [0, 0, 0, 1], [3, 2, 2, 2], [2, 2, 2, 3], [1, 0, 1, 1], [1, 0, 0, 0], [1, 1, 0, 1], [1, 1, 1, 2], [0, 1, 0, 2], [0, 2, 1, 2], [0, 3, 0, 2], [0, 3, 1, 3], [0, 2, 1, 2], [1, 2, 1, 3], [1, 0, 2, 0], [2, 0, 2, 1], [2, 1, 1, 1], [1, 2, 2, 2], [2, 1, 2, 2], [1, 2, 1, 3], [1, 3, 2, 3], [1, 2, 2, 2], [2, 1, 3, 1], [2, 2, 3, 2], [3, 1, 3, 2], [3, 0, 3, 1], [0, 2, 0, 3], [2, 0, 3, 0], [3, 3, 3, 2], [2, 3, 3, 3]]
+square
+x  x  x  x
+x  x  x  x
+x  x  x  x
+x  x  x  x
+squares: [1, 2, 3, 4, 5, 6, 8, 7, 9]
+Score:
+Player 1: 2
+Player 2: 7
+Player 2 wins!!!
+Score:
+Player 1: 2
+Player 2: 7
+PS C:\Users\queso\Downloads\CMSCI 256\code\python> & C:/Users/queso/AppData/Local/Programs/Python/Python39/python.exe "c:/Users/queso/Downloads/CMSCI 256/code/python/Project 1/App1.py"
+hello
+Table:
+*  *  *  *
+*  *  *  *
+*  *  *  *
+*  *  *  *
+reference coordinates:
+[ 0 , 0 ][ 0 , 1 ][ 0 , 2 ][ 0 , 3 ]
+[ 1 , 0 ][ 1 , 1 ][ 1 , 2 ][ 1 , 3 ]
+[ 2 , 0 ][ 2 , 1 ][ 2 , 2 ][ 2 , 3 ]
+[ 3 , 0 ][ 3 , 1 ][ 3 , 2 ][ 3 , 3 ]
+Turn: 1
+Player 1 turn:
+Enter verticle coordinate for line start, enter q to quit:
+2
+Enter horizontal coordinate for line start point: 
+1
+Enter verticle coordinate for line end point: 
+1
+Enter horizontal coordinate for line end point: 
+1
+lines:  [[2, 1, 1, 1]]
+square
+*  *  *  *
+*  x  *  *
+*  x  *  *
+*  *  *  *
+squares: []
+Score:
+Player 1: 0
+Player 2: 0
+Turn: 1
+Player 2 turn:
+Enter verticle coordinate for line start, enter q to quit:
+1
+Enter horizontal coordinate for line start point: 
+1
+Enter verticle coordinate for line end point: 
+1
+Enter horizontal coordinate for line end point: 
+2
+lines:  [[2, 1, 1, 1], [1, 1, 1, 2]]
+square
+*  *  *  *
+*  x  x  *
+*  x  *  *
+*  *  *  *
+squares: []
+Score:
+Player 1: 0
+Player 2: 0
+Turn: 2
+Player 1 turn:
+Enter verticle coordinate for line start, enter q to quit:
+1
+Enter horizontal coordinate for line start point: 
+2
+Enter verticle coordinate for line end point: 
+2
+Enter horizontal coordinate for line end point: 
+2
+lines:  [[2, 1, 1, 1], [1, 1, 1, 2], [1, 2, 2, 2]]
+square
+*  *  *  *
+*  x  x  *
+*  x  x  *
+*  *  *  *
+squares: []
+Score:
+Player 1: 0
+Player 2: 0
+Turn: 2
+Player 2 turn:
+Enter verticle coordinate for line start, enter q to quit:
+2
+Enter horizontal coordinate for line start point: 
+1
+Enter verticle coordinate for line end point: 
+2
+Enter horizontal coordinate for line end point: 
+2
+lines:  [[2, 1, 1, 1], [1, 1, 1, 2], [1, 2, 2, 2], [2, 1, 2, 2]]
+square
+*  *  *  *
+*  x  x  *
+*  x  x  *
+*  *  *  *
+squares: [5]
+Score:
+Player 1: 0
+Player 2: 1
+Turn: 3
+Player 1 turn:
+Enter verticle coordinate for line start, enter q to quit:
+0
+Enter horizontal coordinate for line start point: 
+0
+Enter verticle coordinate for line end point: 
+1
+Enter horizontal coordinate for line end point: 
+0
+lines:  [[2, 1, 1, 1], [1, 1, 1, 2], [1, 2, 2, 2], [2, 1, 2, 2], [0, 0, 1, 0]]
+square
+x  *  *  *
+x  x  x  *
+*  x  x  *
+*  *  *  *
+squares: [5]
+Score:
+Player 1: 0
+Player 2: 1
+Turn: 3
+Player 2 turn:
+Enter verticle coordinate for line start, enter q to quit:
+0
+Enter horizontal coordinate for line start point: 
+0
+Enter verticle coordinate for line end point: 
+1
+Enter horizontal coordinate for line end point: 
+1
+That is not a valid line, lose your turn!
+square
+x  *  *  *
+x  x  x  *
+*  x  x  *
+*  *  *  *
+squares: [5]
+Score:
+Player 1: 0
+Player 2: 1
+Turn: 4
+Player 1 turn:
+Enter verticle coordinate for line start, enter q to quit:
+r
+That is not a valid line, lose your turn!
+square
+x  *  *  *
+x  x  x  *
+*  x  x  *
+*  *  *  *
+squares: [5]
+Score:
+Player 1: 0
+Player 2: 1
+Turn: 4
+Player 2 turn:
+Enter verticle coordinate for line start, enter q to quit:
+4.2
+That is not a valid line, lose your turn!
+square
+x  *  *  *
+x  x  x  *
+*  x  x  *
+*  *  *  *
+squares: [5]
+Score:
+Player 1: 0
+Player 2: 1
+Turn: 5
+Player 1 turn:
+Enter verticle coordinate for line start, enter q to quit:
+0
+Enter horizontal coordinate for line start point: 
+0
+Enter verticle coordinate for line end point:
+0
+Enter horizontal coordinate for line end point: 
+1
+lines:  [[2, 1, 1, 1], [1, 1, 1, 2], [1, 2, 2, 2], [2, 1, 2, 2], [0, 0, 1, 0], [0, 0, 0, 1]]
+square
+x  x  *  *
+x  x  x  *
+*  x  x  *
+*  *  *  *
+squares: [5]
+Score:
+Player 1: 0
+Player 2: 1
+Turn: 5
+Player 2 turn:
+Enter verticle coordinate for line start, enter q to quit:
+0
+Enter horizontal coordinate for line start point: 
+1
+Enter verticle coordinate for line end point: 
+1
+Enter horizontal coordinate for line end point:
+1
+lines:  [[2, 1, 1, 1], [1, 1, 1, 2], [1, 2, 2, 2], [2, 1, 2, 2], [0, 0, 1, 0], [0, 0, 0, 1], [0, 1, 1, 1]]
+square
+x  x  *  *
+x  x  x  *
+*  x  x  *
+*  *  *  *
+squares: [5]
+Score:
+Player 1: 0
+Player 2: 1
+Turn: 6
+Player 1 turn:
+Enter verticle coordinate for line start, enter q to quit:
+1
+Enter horizontal coordinate for line start point: 
+0
+Enter verticle coordinate for line end point: 
+1
+Enter horizontal coordinate for line end point: 
+1
+lines:  [[2, 1, 1, 1], [1, 1, 1, 2], [1, 2, 2, 2], [2, 1, 2, 2], [0, 0, 1, 0], [0, 0, 0, 1], [0, 1, 1, 1], [1, 0, 1, 1]]
+square
+x  x  *  *
+x  x  x  *
+*  x  x  *
+*  *  *  *
+squares: [5, 1]
+Score:
+Player 1: 1
+Player 2: 1
+Turn: 6
+Player 2 turn:
+Enter verticle coordinate for line start, enter q to quit:
+2
+Enter horizontal coordinate for line start point: 
+2
+Enter verticle coordinate for line end point: 
+3
+Enter horizontal coordinate for line end point: 
+2
+lines:  [[2, 1, 1, 1], [1, 1, 1, 2], [1, 2, 2, 2], [2, 1, 2, 2], [0, 0, 1, 0], [0, 0, 0, 1], [0, 1, 1, 1], [1, 0, 1, 1], [2, 2, 3, 2]]
+square
+x  x  *  *
+x  x  x  *
+*  x  x  *
+*  *  x  *
+squares: [5, 1]
+Score:
+Player 1: 1
+Player 2: 1
+Turn: 7
+Player 1 turn:
+Enter verticle coordinate for line start, enter q to quit:
+2
+Enter horizontal coordinate for line start point: 
+1
+Enter verticle coordinate for line end point: 
+3
+Enter horizontal coordinate for line end point: 
+1
+lines:  [[2, 1, 1, 1], [1, 1, 1, 2], [1, 2, 2, 2], [2, 1, 2, 2], [0, 0, 1, 0], [0, 0, 0, 1], [0, 1, 1, 1], [1, 0, 1, 1], [2, 2, 3, 2], [2, 1, 3, 1]]
+square
+x  x  *  *
+x  x  x  *
+*  x  x  *
+*  x  x  *
+squares: [5, 1]
+Score:
+Player 1: 1
+Player 2: 1
+Turn: 7
+Player 2 turn:
+Enter verticle coordinate for line start, enter q to quit:
+3
+Enter horizontal coordinate for line start point: 
+1
+Enter verticle coordinate for line end point: 
+3
+Enter horizontal coordinate for line end point: 
+2
+lines:  [[2, 1, 1, 1], [1, 1, 1, 2], [1, 2, 2, 2], [2, 1, 2, 2], [0, 0, 1, 0], [0, 0, 0, 1], [0, 1, 1, 1], [1, 0, 1, 1], [2, 2, 3, 2], [2, 1, 3, 1], [3, 1, 3, 2]]
+square
+x  x  *  *
+x  x  x  *
+*  x  x  *
+*  x  x  *
+squares: [5, 1, 8]
+Score:
+Player 1: 1
+Player 2: 2
+Turn: 8
+Player 1 turn:
+Enter verticle coordinate for line start, enter q to quit:
+3
+Enter horizontal coordinate for line start point: 
+0
+Enter verticle coordinate for line end point: 
+3
+Enter horizontal coordinate for line end point: 
+1
+lines:  [[2, 1, 1, 1], [1, 1, 1, 2], [1, 2, 2, 2], [2, 1, 2, 2], [0, 0, 1, 0], [0, 0, 0, 1], [0, 1, 1, 1], [1, 0, 1, 1], [2, 2, 3, 2], [2, 1, 3, 1], [3, 1, 3, 2], [3, 0, 3, 1]]
+square
+x  x  *  *
+x  x  x  *
+*  x  x  *
+x  x  x  *
+squares: [5, 1, 8]
+Score:
+Player 1: 1
+Player 2: 2
+Turn: 8
+Player 2 turn:
+Enter verticle coordinate for line start, enter q to quit:
+2
+Enter horizontal coordinate for line start point: 
+0
+Enter verticle coordinate for line end point:
+3
+Enter horizontal coordinate for line end point: 
+0
+lines:  [[2, 1, 1, 1], [1, 1, 1, 2], [1, 2, 2, 2], [2, 1, 2, 2], [0, 0, 1, 0], [0, 0, 0, 1], [0, 1, 1, 1], [1, 0, 1, 1], [2, 2, 3, 2], [2, 1, 3, 1], [3, 1, 3, 2], [3, 0, 3, 1], [2, 0, 3, 0]]  
+square
+x  x  *  *
+x  x  x  *
+x  x  x  *
+x  x  x  *
+squares: [5, 1, 8]
+Score:
+Player 1: 1
+Player 2: 2
+Turn: 9
+Player 1 turn:
+Enter verticle coordinate for line start, enter q to quit:
+2
+Enter horizontal coordinate for line start point: 
+0
+Enter verticle coordinate for line end point: 
+2
+Enter horizontal coordinate for line end point: 
+1
+lines:  [[2, 1, 1, 1], [1, 1, 1, 2], [1, 2, 2, 2], [2, 1, 2, 2], [0, 0, 1, 0], [0, 0, 0, 1], [0, 1, 1, 1], [1, 0, 1, 1], [2, 2, 3, 2], [2, 1, 3, 1], [3, 1, 3, 2], [3, 0, 3, 1], [2, 0, 3, 0], [2, 0, 2, 1]]
+square
+x  x  *  *
+x  x  x  *
+x  x  x  *
+x  x  x  *
+squares: [5, 1, 8, 7]
+Score:
+Player 1: 2
+Player 2: 2
+Turn: 9
+Player 2 turn:
+Enter verticle coordinate for line start, enter q to quit:
+2
+Enter horizontal coordinate for line start point: 
+2
+Enter verticle coordinate for line end point: 
+2
+Enter horizontal coordinate for line end point: 
+3
+lines:  [[2, 1, 1, 1], [1, 1, 1, 2], [1, 2, 2, 2], [2, 1, 2, 2], [0, 0, 1, 0], [0, 0, 0, 1], [0, 1, 1, 1], [1, 0, 1, 1], [2, 2, 3, 2], [2, 1, 3, 1], [3, 1, 3, 2], [3, 0, 3, 1], [2, 0, 3, 0], [2, 0, 2, 1], [2, 2, 2, 3]]
+square
+x  x  *  *
+x  x  x  *
+x  x  x  x
+x  x  x  *
+squares: [5, 1, 8, 7]
+Score:
+Player 1: 2
+Player 2: 2
+Turn: 10
+Player 1 turn:
+Enter verticle coordinate for line start, enter q to quit:
+2
+Enter horizontal coordinate for line start point: 
+3
+Enter verticle coordinate for line end point: 
+3
+Enter horizontal coordinate for line end point: 
+3
+lines:  [[2, 1, 1, 1], [1, 1, 1, 2], [1, 2, 2, 2], [2, 1, 2, 2], [0, 0, 1, 0], [0, 0, 0, 1], [0, 1, 1, 1], [1, 0, 1, 1], [2, 2, 3, 2], [2, 1, 3, 1], [3, 1, 3, 2], [3, 0, 3, 1], [2, 0, 3, 0], [2, 0, 2, 1], [2, 2, 2, 3], [2, 3, 3, 3]]
+square
+x  x  *  *
+x  x  x  *
+x  x  x  x
+x  x  x  x
+squares: [5, 1, 8, 7]
+Score:
+Player 1: 2
+Player 2: 2
+Turn: 10
+Player 2 turn:
+Enter verticle coordinate for line start, enter q to quit:
+3
+Enter horizontal coordinate for line start point: 
+3
+Enter verticle coordinate for line end point: 
+3
+Enter horizontal coordinate for line end point: 
+2
+lines:  [[2, 1, 1, 1], [1, 1, 1, 2], [1, 2, 2, 2], [2, 1, 2, 2], [0, 0, 1, 0], [0, 0, 0, 1], [0, 1, 1, 1], [1, 0, 1, 1], [2, 2, 3, 2], [2, 1, 3, 1], [3, 1, 3, 2], [3, 0, 3, 1], [2, 0, 3, 0], [2, 0, 2, 1], [2, 2, 2, 3], [2, 3, 3, 3], [3, 3, 3, 2]]
+square
+x  x  *  *
+x  x  x  *
+x  x  x  x
+x  x  x  x
+squares: [5, 1, 8, 7, 9]
+Score:
+Player 1: 2
+Player 2: 3
+Turn: 11
+Player 1 turn:
+Enter verticle coordinate for line start, enter q to quit:
+1
+Enter horizontal coordinate for line start point: 
+3
+Enter verticle coordinate for line end point: 
+2
+Enter horizontal coordinate for line end point: 
+3
+lines:  [[2, 1, 1, 1], [1, 1, 1, 2], [1, 2, 2, 2], [2, 1, 2, 2], [0, 0, 1, 0], [0, 0, 0, 1], [0, 1, 1, 1], [1, 0, 1, 1], [2, 2, 3, 2], [2, 1, 3, 1], [3, 1, 3, 2], [3, 0, 3, 1], [2, 0, 3, 0], [2, 0, 2, 1], [2, 2, 2, 3], [2, 3, 3, 3], [3, 3, 3, 2], [1, 3, 2, 3]]
+square
+x  x  *  *
+x  x  x  x
+x  x  x  x
+x  x  x  x
+squares: [5, 1, 8, 7, 9]
+Score:
+Player 1: 2
+Player 2: 3
+Turn: 11
+Player 2 turn:
+Enter verticle coordinate for line start, enter q to quit:
+1
+Enter horizontal coordinate for line start point: 
+2
+Enter verticle coordinate for line end point: 
+1
+Enter horizontal coordinate for line end point: 
+3
+lines:  [[2, 1, 1, 1], [1, 1, 1, 2], [1, 2, 2, 2], [2, 1, 2, 2], [0, 0, 1, 0], [0, 0, 0, 1], [0, 1, 1, 1], [1, 0, 1, 1], [2, 2, 3, 2], [2, 1, 3, 1], [3, 1, 3, 2], [3, 0, 3, 1], [2, 0, 3, 0], [2, 0, 2, 1], [2, 2, 2, 3], [2, 3, 3, 3], [3, 3, 3, 2], [1, 3, 2, 3], [1, 2, 1, 3]]
+square
+x  x  *  *
+x  x  x  x
+x  x  x  x
+x  x  x  x
+squares: [5, 1, 8, 7, 9, 6]
+Score:
+Player 1: 2
+Player 2: 4
+Turn: 12
+Player 1 turn:
+Enter verticle coordinate for line start, enter q to quit:
+1
+Enter horizontal coordinate for line start point: 
+1
+Enter verticle coordinate for line end point: 
+2
+Enter horizontal coordinate for line end point:
+1
+lines:  [[2, 1, 1, 1], [1, 1, 1, 2], [1, 2, 2, 2], [2, 1, 2, 2], [0, 0, 1, 0], [0, 0, 0, 1], [0, 1, 1, 1], [1, 0, 1, 1], [2, 2, 3, 2], [2, 1, 3, 1], [3, 1, 3, 2], [3, 0, 3, 1], [2, 0, 3, 0], [2, 0, 2, 1], [2, 2, 2, 3], [2, 3, 3, 3], [3, 3, 3, 2], [1, 3, 2, 3], [1, 2, 1, 3], [1, 1, 2, 1]]
+square
+x  x  *  *
+x  x  x  x
+x  x  x  x
+x  x  x  x
+squares: [5, 1, 8, 7, 9, 6]
+Score:
+Player 1: 2
+Player 2: 4
+Turn: 12
+Player 2 turn:
+Enter verticle coordinate for line start, enter q to quit:
+1
+Enter horizontal coordinate for line start point: 
+1
+Enter verticle coordinate for line end point: 
+2
+Enter horizontal coordinate for line end point: 
+1
+lines:  [[2, 1, 1, 1], [1, 1, 1, 2], [1, 2, 2, 2], [2, 1, 2, 2], [0, 0, 1, 0], [0, 0, 0, 1], [0, 1, 1, 1], [1, 0, 1, 1], [2, 2, 3, 2], [2, 1, 3, 1], [3, 1, 3, 2], [3, 0, 3, 1], [2, 0, 3, 0], [2, 0, 2, 1], [2, 2, 2, 3], [2, 3, 3, 3], [3, 3, 3, 2], [1, 3, 2, 3], [1, 2, 1, 3], [1, 1, 2, 1], [1, 1, 2, 1]]
+square
+x  x  *  *
+x  x  x  x
+x  x  x  x
+x  x  x  x
+squares: [5, 1, 8, 7, 9, 6]
+Score:
+Player 1: 2
+Player 2: 4
+Turn: 13
+Player 1 turn:
+Enter verticle coordinate for line start, enter q to quit:
+0
+Enter horizontal coordinate for line start point: 
+0
+Enter verticle coordinate for line end point: 
+0
+Enter horizontal coordinate for line end point: 
+1
+lines:  [[2, 1, 1, 1], [1, 1, 1, 2], [1, 2, 2, 2], [2, 1, 2, 2], [0, 0, 1, 0], [0, 0, 0, 1], [0, 1, 1, 1], [1, 0, 1, 1], [2, 2, 3, 2], [2, 1, 3, 1], [3, 1, 3, 2], [3, 0, 3, 1], [2, 0, 3, 0], [2, 0, 2, 1], [2, 2, 2, 3], [2, 3, 3, 3], [3, 3, 3, 2], [1, 3, 2, 3], [1, 2, 1, 3], [1, 1, 2, 1], [1, 1, 2, 1], [0, 0, 0, 1]]
+square
+x  x  *  *
+x  x  x  x
+x  x  x  x
+x  x  x  x
+squares: [5, 1, 8, 7, 9, 6]
+Score:
+Player 1: 2
+Player 2: 4
+Turn: 13
+Player 2 turn:
+Enter verticle coordinate for line start, enter q to quit:
+0
+Enter horizontal coordinate for line start point: 
+1
+Enter verticle coordinate for line end point:
+0
+Enter horizontal coordinate for line end point: 
+2
+lines:  [[2, 1, 1, 1], [1, 1, 1, 2], [1, 2, 2, 2], [2, 1, 2, 2], [0, 0, 1, 0], [0, 0, 0, 1], [0, 1, 1, 1], [1, 0, 1, 1], [2, 2, 3, 2], [2, 1, 3, 1], [3, 1, 3, 2], [3, 0, 3, 1], [2, 0, 3, 0], [2, 0, 2, 1], [2, 2, 2, 3], [2, 3, 3, 3], [3, 3, 3, 2], [1, 3, 2, 3], [1, 2, 1, 3], [1, 1, 2, 1], [1, 1, 2, 1], [0, 0, 0, 1], [0, 1, 0, 2]]
+square
+x  x  x  *
+x  x  x  x
+x  x  x  x
+x  x  x  x
+squares: [5, 1, 8, 7, 9, 6]
+Score:
+Player 1: 2
+Player 2: 4
+Turn: 14
+Player 1 turn:
+Enter verticle coordinate for line start, enter q to quit:
+0
+Enter horizontal coordinate for line start point: 
+2
+Enter verticle coordinate for line end point: 
+1
+Enter horizontal coordinate for line end point: 
+2
+lines:  [[2, 1, 1, 1], [1, 1, 1, 2], [1, 2, 2, 2], [2, 1, 2, 2], [0, 0, 1, 0], [0, 0, 0, 1], [0, 1, 1, 1], [1, 0, 1, 1], [2, 2, 3, 2], [2, 1, 3, 1], [3, 1, 3, 2], [3, 0, 3, 1], [2, 0, 3, 0], [2, 0, 2, 1], [2, 2, 2, 3], [2, 3, 3, 3], [3, 3, 3, 2], [1, 3, 2, 3], [1, 2, 1, 3], [1, 1, 2, 1], [1, 1, 2, 1], [0, 0, 0, 1], [0, 1, 0, 2], [0, 2, 1, 2]]
+square
+x  x  x  *
+x  x  x  x
+x  x  x  x
+x  x  x  x
+squares: [5, 1, 8, 7, 9, 6, 2]
+Score:
+Player 1: 3
+Player 2: 4
+Turn: 14
+Player 2 turn:
+Enter verticle coordinate for line start, enter q to quit:
+0
+Enter horizontal coordinate for line start point: 
+2
+Enter verticle coordinate for line end point: 
+0
+Enter horizontal coordinate for line end point: 
+3
+lines:  [[2, 1, 1, 1], [1, 1, 1, 2], [1, 2, 2, 2], [2, 1, 2, 2], [0, 0, 1, 0], [0, 0, 0, 1], [0, 1, 1, 1], [1, 0, 1, 1], [2, 2, 3, 2], [2, 1, 3, 1], [3, 1, 3, 2], [3, 0, 3, 1], [2, 0, 3, 0], [2, 0, 2, 1], [2, 2, 2, 3], [2, 3, 3, 3], [3, 3, 3, 2], [1, 3, 2, 3], [1, 2, 1, 3], [1, 1, 2, 1], [1, 1, 2, 1], [0, 0, 0, 1], [0, 1, 0, 2], [0, 2, 1, 2], [0, 2, 0, 3]]
+square
+x  x  x  x
+x  x  x  x
+x  x  x  x
+x  x  x  x
+squares: [5, 1, 8, 7, 9, 6, 2]
+Score:
+Player 1: 3
+Player 2: 4
+Turn: 15
+Player 1 turn:
+Enter verticle coordinate for line start, enter q to quit:
+0
+Enter horizontal coordinate for line start point: 
+3
+Enter verticle coordinate for line end point: 
+1
+Enter horizontal coordinate for line end point: 
+3
+lines:  [[2, 1, 1, 1], [1, 1, 1, 2], [1, 2, 2, 2], [2, 1, 2, 2], [0, 0, 1, 0], [0, 0, 0, 1], [0, 1, 1, 1], [1, 0, 1, 1], [2, 2, 3, 2], [2, 1, 3, 1], [3, 1, 3, 2], [3, 0, 3, 1], [2, 0, 3, 0], [2, 0, 2, 1], [2, 2, 2, 3], [2, 3, 3, 3], [3, 3, 3, 2], [1, 3, 2, 3], [1, 2, 1, 3], [1, 1, 2, 1], [1, 1, 2, 1], [0, 0, 0, 1], [0, 1, 0, 2], [0, 2, 1, 2], [0, 2, 0, 3], [0, 3, 1, 3]]
+square
+x  x  x  x
+x  x  x  x
+x  x  x  x
+x  x  x  x
+squares: [5, 1, 8, 7, 9, 6, 2, 3]
+Score:
+Player 1: 4
+Player 2: 4
+Turn: 15
+Player 2 turn:
+Enter verticle coordinate for line start, enter q to quit:
+1
+Enter horizontal coordinate for line start point: 
+0
+Enter verticle coordinate for line end point: 
+2
+Enter horizontal coordinate for line end point: 
+0
+lines:  [[2, 1, 1, 1], [1, 1, 1, 2], [1, 2, 2, 2], [2, 1, 2, 2], [0, 0, 1, 0], [0, 0, 0, 1], [0, 1, 1, 1], [1, 0, 1, 1], [2, 2, 3, 2], [2, 1, 3, 1], [3, 1, 3, 2], [3, 0, 3, 1], [2, 0, 3, 0], [2, 0, 2, 1], [2, 2, 2, 3], [2, 3, 3, 3], [3, 3, 3, 2], [1, 3, 2, 3], [1, 2, 1, 3], [1, 1, 2, 1], [1, 1, 2, 1], [0, 0, 0, 1], [0, 1, 0, 2], [0, 2, 1, 2], [0, 2, 0, 3], [0, 3, 1, 3], [1, 0, 2, 0]]
+square
+x  x  x  x
+x  x  x  x
+x  x  x  x
+x  x  x  x
+squares: [5, 1, 8, 7, 9, 6, 2, 3, 4]
+Score:
+Player 1: 4
+Player 2: 5
+Player 2 wins!!!
+Player 2 wins!!!
+Score:
+Player 1: 4
+Player 2: 5
