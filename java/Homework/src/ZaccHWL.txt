@@ -1,0 +1,18 @@
+/*Anthony Zaccaria
+ * Homework L-1 Output
+ * CMSCI 256
+ * 4/06/23
+ * This is my own original work
+ */
+
+
+4 ; 2 ; 6
+After swap 1 and 2: 2 ; 4 ; 6
+After swap 1 and 3: 6 ; 4 ; 2
+After swap 2 and 3: 6 ; 2 ; 4
+After swap 3 and 2: 6 ; 4 ; 2
+Hi ; my ; Name
+After swap 1 and 2: my ; Hi ; Name
+After swap 1 and 3: Name ; Hi ; my
+After swap 2 and 3: Name ; my ; Hi
+After swap 3 and 1: Hi ; my ; Name

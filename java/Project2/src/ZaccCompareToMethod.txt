@@ -1,0 +1,14 @@
+    @Override
+    public int compareTo(ThreeNames o) {
+        int num=0;
+        if (list[0].equals(o.getList()[0])){
+            if (!list[1].equals(o.getList()[1])){
+                return list[1].compareTo(o.getList()[1]);
+            }
+            }
+            else 
+            {
+                return list[2].compareTo(o.getList()[2]);
+            }
+            return num;
+        }

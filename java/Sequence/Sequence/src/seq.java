@@ -34,4 +34,7 @@ public class seq {
         }
         return L;
     }
+    public int getCount(){
+        return count;
+    }
 }

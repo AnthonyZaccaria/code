@@ -63,6 +63,11 @@ public class ThreeNames implements Biggest, Comparable<ThreeNames> {
             return num;
         }
 
+        public boolean equals(ThreeNames o) {
+            if (list[0].equals(o.getList()[0])&&list[1].equals(o.getList()[1])&&list[2].equals(o.getList()[2]))
+                return true;
+            else return false;
+        }
     }
     
     

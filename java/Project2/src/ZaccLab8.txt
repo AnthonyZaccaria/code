@@ -1,0 +1,19 @@
+/*Anthony Zaccaria
+ * Homework Lab 8 Output
+ * CMSCI 256
+ * 4/17/23
+ * This is my own original work
+ */
+
+
+
+The last element is the sum of the rolls.
+The prior elements are the respective rolls.
+[6, 4, 10]
+[2, 2]
+[3, 4, 4, 4, 15]
+[2, 14, 16]
+Value of group1: 42
+Value of group2: 21
+Value of group3: 40
+Value of group4: 420
