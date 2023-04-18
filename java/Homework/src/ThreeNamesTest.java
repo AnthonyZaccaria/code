@@ -7,6 +7,7 @@
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class ThreeNamesTest {
@@ -81,11 +82,12 @@ public class ThreeNamesTest {
     System.out.println(name5.compareTo(name4));//should be positive
     System.out.println(name2.compareTo(name9));//should be negative
     System.out.println(name9.compareTo(name3));//should be 0
-    Collections.sort(nameList); //I can't seems to get the sort to work despite compareTo working
+    Collections.sort(nameList);
+    //I can't seem to get the sort to work despite compareTo working
     System.out.println("After sort:");
     //System.out.println(nameList);
     
-    }
+    } 
 
 
 }
