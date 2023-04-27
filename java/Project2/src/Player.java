@@ -12,7 +12,7 @@ import java.util.Random;
 public class Player implements MoneyHolder {
     private int start;
     private int winnings;
-    List<String> bets;
+    private List<String> bets;
 
     /**
      * Constructor
