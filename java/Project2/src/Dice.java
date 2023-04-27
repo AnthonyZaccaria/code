@@ -1,7 +1,8 @@
+
 /*Anthony Zaccaria
- * Homework Lab 8 Dice Class
+ * Project 2 Dice Class
  * CMSCI 256
- * 4/17/23
+ * 5/04/23
  * This is my own original work
  */
 
@@ -9,22 +10,27 @@
 public class Dice {
     private int nDice;
     private int sides;
+    private int[] roll;
+    private Die[] dice;
 
     public Dice(int nDice,int sides){
         this.nDice=nDice;
         this.sides=sides;
+        roll=new int[nDice+1];
+        dice = new Die[nDice];
+        for (int i=0;i<nDice;i++){
+            dice[i]=new Die(sides);
+        }
     }
 
     public int[] roll(){
-        int[] rolls = new int[nDice+1];
         int sum=0;
         for (int i=0;i<nDice;i++){
-            Die d = new Die(sides);
-            rolls[i]=d.roll();
-            sum+=rolls[i];
+            roll[i]=dice[i].roll();
+            sum+=roll[i];
         }
-        rolls[rolls.length-1]=sum;
-        return rolls;
+        roll[roll.length-1]=sum;
+        return roll;
     }
 
     public int value(){

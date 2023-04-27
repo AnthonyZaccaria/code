@@ -1,0 +1,17 @@
+*Anthony Zaccaria
+ * Homework M-1 Output
+ * CMSCI 256
+ * 4/15/23
+ * This is my own original work
+ */
+
+Before sort:
+[0:Anthony     1:Michael     2:Zaccaria    , 0:John        1:Paul        2:Marinelli   , 0:Anthony     1:Michael     2:Zaccaria    , 0:Jack        1:Leo         2:Daly        , 0:Mister      1:Green       2:Tree        , 0:William     1:Michael     2:Zaccaria    , 0:Anthony     1:Hello       2:Zaccaria    , 0:Anthony     1:Michael     2:Smith       , 0:Anthony     1:Michael     2:Zaccaria    , 0:Hello       1:My          2:Name        ]
+13
+-13
+0
+16
+-16
+-13
+0
+After sort:

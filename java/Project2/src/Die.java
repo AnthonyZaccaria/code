@@ -10,20 +10,22 @@ import java.util.Random;
 
 public class Die {
     private int sides;
+    private int roll;
+    private Random gen = new Random();
 
     public Die(int sides){
         this.sides=sides;
     }
 
     public int roll(){
-        int roll;
-        Random gen= new Random();
         roll = gen.nextInt(sides)+1;
         return roll;
     }
 
     public String toString(){
-        return ""+sides+" sided die";
+        String str = ""+sides+" sided die";
+        str+= "\nCurrent roll = "+roll;
+        return str;
     }
 
     public int value(){

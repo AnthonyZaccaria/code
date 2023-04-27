@@ -80,10 +80,19 @@ public class ThreeNamesTest {
     System.out.println(name2.compareTo(name1));//should be negative
     System.out.println(name1.compareTo(name9));//should be 0
     System.out.println(name5.compareTo(name4));//should be positive
+    System.out.println(name4.compareTo(name5));//should be negative
     System.out.println(name2.compareTo(name9));//should be negative
     System.out.println(name9.compareTo(name3));//should be 0
-    Collections.sort(nameList);
+    //Collections.sort(nameList);
     //I can't seem to get the sort to work despite compareTo working
+    /*
+    Here is the specific error:
+    Exception in thread "main" java.lang.Error: Unresolved compilation problem: 
+        The method sort(List<T>) in the type Collections is not applicable for the arguments (List<ThreeNames>)
+
+        at ThreeNamesTest.main(ThreeNamesTest.java:85)
+*/
+    
     System.out.println("After sort:");
     //System.out.println(nameList);
     
