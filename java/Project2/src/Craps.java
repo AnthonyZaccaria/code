@@ -1,3 +1,9 @@
+/*Anthony Zaccaria
+ * Project 2 App Class
+ * CMSCI 256
+ * 5/04/23
+ * This is my own original work
+ */
 import java.util.Scanner;
 
 // App class for the game Craps
@@ -8,7 +14,7 @@ public class Craps {
         Player p1 = new Player(50);
         boolean end=false;
         Scanner in = new Scanner(System.in);
-        String q;
+        String q; // will contain player's input for quiting
         System.out.println("Welcome to Anthony's Dice and Pool Place!\n Enjoy the game of craps!");
         int winnings=0;
         while (!end){
@@ -26,6 +32,12 @@ public class Craps {
         in.close();
     }
 
+    /**
+     * Performs the craps passline bet once
+     * @param p: Player that is betting
+     * @param bet: the specific monetary bet
+     * @return int which is the winnings of the player this bet
+     */
     public static int passLine(Player p,int bet){
         Dice d = new Dice(2,6);
         int[] roll;
@@ -70,6 +82,11 @@ public class Craps {
         return win;
     }
     
+    /**
+     * goes through 1 turn of betting
+     * @param p: The player that is playing craps
+     * @return int which is the player's winnings this turn
+     */
     public static int turn(Player p){
         int bet = p.bet();
         System.out.println("Pass Line Bet: "+bet);

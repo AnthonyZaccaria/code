@@ -13,6 +13,7 @@ public class Dice {
     private int[] roll;
     private Die[] dice;
 
+    // constructor
     public Dice(int nDice,int sides){
         this.nDice=nDice;
         this.sides=sides;
@@ -23,6 +24,7 @@ public class Dice {
         }
     }
 
+    // rolls the dice
     public int[] roll(){
         int sum=0;
         for (int i=0;i<nDice;i++){
@@ -33,12 +35,16 @@ public class Dice {
         return roll;
     }
 
+    // returns value of the dice
     public int value(){
         Die d = new Die(sides);
+        // calculates the value of a single die with sides number of sides
+        // then multiplies that by number of dice
         int value = d.value()*nDice;
         return value;
     }
 
+    // toString method
     public String toString(){
         return ""+nDice + "dice with "+sides+"sides";
     }

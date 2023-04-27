@@ -25,8 +25,8 @@ public class Player implements MoneyHolder {
     }
 
     /**
-     * 
-     * @return
+     * generates player's monetary bet
+     * @return int which is player's bet
      */
     public int bet(){
         int[] Pbets = {5,10,15,20};
@@ -49,16 +49,16 @@ public class Player implements MoneyHolder {
     }
 
     /**
-     * 
-     * @param bet
+     * adds bet to array holding bets
+     * @param bet: specific bet getting added to bet history
      */
     public void addBet(String bet){
         bets.add(bet);
     }
 
     /**
-     * 
-     * @return
+     * Gives player's betting history
+     * @return String which is player's betting history
      */
     public String BetProfile(){
         String str="";
